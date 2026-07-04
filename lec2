@@ -1,0 +1,25 @@
+127.0.0.1 (local host ip address)->ISP ->Local system 
+
+
+443 ->server 
+
+
+/10  or /20 ->define the user to handle in the particular website 
+
+if(isNan(number)|| number<=0){
+    const number = Number(request.url.slice(1));
+    response.end("Invalid url")
+}
+if(number >100){
+  response.end("you can fetch more than 100 user")
+}
+const arr=[]
+
+for(let i=0;i<number; i++){
+      arr.push(gitHub(i));
+}
+response.end(JSON.stringify(arr));
+}else{
+  const arr = []
+  for(let i= 0 ; i<)
+}
